@@ -34,7 +34,9 @@
 
 위와 같은 column을 활용하여 데이터를 가져와.
 
-![image-20210421155330558](docs_img/image-20210421155330558.png)
+![image-20210421155330558](../img/image-20210421155330558.png)
+
+
 
 
 
@@ -48,13 +50,13 @@
 
 
 
-<img src="docs_img/image-20210421153954489.png" alt="image-20210421153954489" style="zoom: 50%;" />
+<img src="../img/image-20210421153954489.png" alt="image-20210421153954489" style="zoom: 50%;" />
 
 데이터가 더 많이 포함되고 중심이 되는 VO에 JOIN할 다른 VO를 멤버 변수로 갖고도록 한다.
 
 
 
-<img src="docs_img/image-20210421154315554.png" alt="image-20210421154315554"  />
+<img src="../img/image-20210421154315554.png" alt="image-20210421154315554"  />
 
 resultMap에서 중심이 되는 Course VO에 대해 매핑하고, Teacher VO와 관계가 1:1일 경우 association, 1:N (course:teacher)일 경우 collection으로 구현한다. 
 
@@ -74,13 +76,13 @@ https://suhun918.tistory.com/15  => resultMap에서 관계설정 X
 
 #### 2-2. 새로운 VO를 만들어서 구현 (=VO 방식)
 
-<img src="docs_img/image-20210421161319087.png" alt="image-20210421161319087" style="zoom: 50%;" />
+<img src="../img/image-20210421161319087.png" alt="image-20210421161319087" style="zoom: 50%;" />
 
 각 VO에서 필요한 데이터들만 가지고 새로운 VO를 만든다.
 
 
 
-![image-20210421161726168](docs_img/image-20210421161726168.png)
+![image-20210421161726168](../img/image-20210421161726168.png)
 
 DB의 column과 VO의 property 매핑을 잘 시켜주면 된다.
 
@@ -119,3 +121,4 @@ resultMap의 column은 DB에서 쿼리문을 던졌을때 column으로 보이는
 참고 사이트
 
 https://okky.kr/article/211064
+
